@@ -48,6 +48,10 @@
 			left: 20px;
 		}
 
+		@include minTablet(){
+			width: 600px;
+		}
+
 		input:not([type='submit']):not([type='button']) {
 			transition: all 0.4s ease-in-out;
 			border-color: rgba(#fff,.4);

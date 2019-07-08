@@ -13,5 +13,7 @@ block content
 				p Присоединяйтесь к нам в последние выходные лета.
 
 				form
-					p: input.container-full(type="text", placeholder="Кодовая фраза")
-					p: button.container-full Получить координаты
+					p: input.container-full(type="text", placeholder="Кодовая фраза", value="Абракадабра", disabled)
+					p: button.container-full(disabled)
+						.loader-ring.m-r-10
+						| Ждите
