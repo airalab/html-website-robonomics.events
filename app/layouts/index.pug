@@ -1,0 +1,21 @@
+extends extends/layout.pug
+
+block html
+	- var meta_title = 'Events'
+
+block content
+	.screen#index-intro
+		#index-intro--content
+			h1 Робономика 2019
+			p для своих
+
+			section
+				p Присоединяйтесь к нам в последние выходные лета.
+
+				form
+					p: input.container-full(type="text", placeholder="Кодовая фраза")
+					p: button.container-full Получить координаты
+
+					p: button.container-full(disabled)
+						.loader-ring.m-r-10
+						| Ждите
