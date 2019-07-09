@@ -2051,6 +2051,17 @@ table caption {
   hyphens: auto;
 }
 
+.t-label--blue, .t-label--orange, .t-label--green, .t-label--violet, .t-label--gray {
+  padding: 5px;
+}
+.t-label--blue, .t-label--blue:hover, .t-label--orange, .t-label--orange:hover, .t-label--green, .t-label--green:hover, .t-label--violet, .t-label--violet:hover, .t-label--gray, .t-label--gray:hover {
+  color: #fff;
+}
+
+.t-label--blue {
+  background-color: #03A5ED;
+}
+
 @keyframes FadeOut {
   0% {
     visibility: visible;
